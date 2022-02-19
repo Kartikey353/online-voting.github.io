@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="form">
+        <form action="" class="form-box">
+            <div class="login">
+                <h1>Login</h1>
+            </div>
+        <div class="application-no">
+            Application no: <input id="appno" type="number" name="application-no" placeholder="Enter Application no.">
+        </div>
+        <div class="password">
+           password:  <input id="pass" type="password" name="password" placeholder="Enter Password">
+        </div>
+        <div class="dob">
+            Date of birth: <input id="dobirth" type="date" name="dob">
+        </div>
+        <div class="otp">
+            OTP: <input id="otp" type="number" name="otp" placeholder="Enter OTP">
+        </div>
+        <div class="captcha">
+            Captcha Code: <input id="capt" type="text" name="captcha" readonly="readonly">
+            <div id="refresh"><img src="refresh.png" alt="" width="30px" onclick="cap()"></div>
+            <input type="text" id="textinput" placeholder="Enter Captcha">
+            <button onclick="validcap()">Check</button>
+        </div>
+        <div id="buttons">
+            <input type="submit" value="Submit" id="submit">
+            <input type="reset" value="Reset" id="reset">
+        </div>
+        </form>
+    </div>
+</body>
+</html>

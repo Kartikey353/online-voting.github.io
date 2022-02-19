@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+}
+body{
+     background-image: url("Online-voting.jpg");  
+    background-position: center;
+    color: white;
+}
+
+.form{
+    height: 800px;
+    width: auto;
+    border: 2px solid white;
+    padding: 18px 13px;
+    display: flex;
+    justify-content: center;
+}
+.form-box {
+    /* border: 2px solid black;  */
+ background-color: rgb(15, 15, 15);  
+ border-radius: 65px;
+ /* background-image: url("vote.png"); */
+    margin: 76px 76px;
+    padding: 70px 40px;
+}
+.form h1{
+    /* border:2px solid white; */
+    margin: 20px 0px;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 45px;
+}
+.application-no{
+    margin: 10px 5px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.password{
+    margin: 10px 47px;
+    padding: 5px 5px;
+}
+.dob{
+    margin: 10px 21px;
+    padding: 5px 5px;
+}
+.otp{
+    margin: 10px 85px;
+    padding: 5px 5px;
+}
+.captcha{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+#buttons{
+    margin: 50px 132px;
+    padding: 5px 5px;
+}
+.captcha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#refresh{
+    float: left;
+    margin: 0px 5px;
+    padding: 0px 30px;
+    width: 20px;
+}
+#textinput{
+    width: 133px;
+    height: 28px;
+    display: flex;
+}
+#capt{
+    width: 133px;
+    height: auto;
+    float: left;
+    margin: 0px 5px;
+    padding: 0px 10px;
+}
+.captcha button{
+    margin: 0px 10px;
+    padding: 0px 10px;
+    height: 20px;
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#refresh img{
+    height: auto;
+    padding: 5px 5px;
+    margin: 5px -35px;
+    cursor: pointer;
+} 
+#submit{
+    border-radius: 5px;
+    background-color:rgb(65, 235, 65); 
+    box-shadow: 2px 2px white;
+} 
+#reset{
+    border-radius: 5px;
+    background-color:crimson; 
+    box-shadow: 2px 2px white;
+}

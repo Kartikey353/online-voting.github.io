@@ -1,0 +1,47 @@
+*{ 
+ margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+body{
+    height:100vh;
+    justify-content: center;
+    align-items: center;  
+    padding:10px;
+    background: linear-gradient(135deg,rgb(52, 246, 253),rgb(77, 74, 252)); 
+    /* background-image: url("Online-voting.jpg");  */ 
+} 
+.mainbox{ 
+    width: 80%;  
+    /* background: linear-gradient(135deg,#71b7e6,#9b59b6); */ 
+    background:linear-gradient(135deg,rgb(88, 107, 216),rgb(204, 74, 204)); 
+    margin-left: 10%;
+    padding: 30px 50px; 
+    border: 10px solid black;
+    border-radius: 65px;
+} 
+.heading{
+    text-align: center; 
+    text-transform: uppercase; 
+    font-size: 20px;
+    font-weight: 800;
+} 
+.box{
+    display: flex; 
+    padding-top: 5%;  
+    align-items: center;
+    justify-items: center;
+    justify-content: center; 
+    
+}
+.box1,.box2,.box3,.box4{
+margin-left: 10%; 
+margin-right: 5%; 
+border: 3px solid black; 
+border-radius: 20px;  
+background-color: red; 
+}  
+button{
+    margin: 50%;
+}

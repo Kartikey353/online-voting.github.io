@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="r.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">REGISTER-HERE</div> 
+        <form action="#" class="registration-form">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">FULL NAME:*</span>
+                    <input name="fullname" id="fullname" type="text" placeholder="enter your name " required>
+                </div> 
+                    <div class="input-box">
+                        <span class="details">MOBILE N0.:*</span>
+                        <input type="tel" id="mobileno" placeholder="enter mobile number (+91)" required>
+                    </div> 
+                        <div class="input-box">
+                            <span class="details">DATE OF BIRTH:*</span>
+                            <input type="date" id="dob" placeholder="date of birth" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">EMAIL ID:*</span>
+                            <input type="email" id="email" placeholder="enter EMAIL" required>
+                        </div> 
+                        <div class="input-box">
+                            <span class="details">ADHAAR NUMBER:*</span>
+                            <input type="number" id="adhaar" placeholder="enter ADHAAR" required>
+                        </div>  
+                        <div class="input-box">
+                            <span class="details">PASSWORD:*</span>
+                            <input type="password" id="password" placeholder="create your PASSWORD" required>
+                        </div> 
+                        <div class="input-box">
+                            <span class="details">CONFIRM PASSWORD:*</span>
+                            <input type="text" id="cpassword" placeholder="Re-enter PASSWORD" required>
+                        </div>  
+                        <div class="input-box">
+                            <span class="details"><address>ADDRESS:*</address></span>
+                            <textarea style="resize: none;" name="address" id="address" cols="35" rows="4" placeholder="enter your address" required></textarea>
+                        </div>  
+            </div> 
+            <div class="gender-details">
+            <span class="gender-title">GENDER:*</span>
+            <div class="category">
+                    <span class="dot one"> 
+                        <input type="checkbox" class="b">
+                        <span class="gender">MALE</span>
+                    </span>
+                    <span class="dot one"> 
+                        <input type="checkbox" class="b">
+                        <span class="gender">FEMALE</span>
+                    </span>
+                    <span class="dot one"> 
+                        <input type="checkbox" class="b">
+                        <span class="gender">TRANSGENDER</span>
+                    </span>
+            </div>
+            </div> 
+            <div class="candidate">
+              <span class="wantstocanditate">WANT TO BE A CANDIDATE:</span> 
+              <input id="checkboxid" name="checkbox" type="checkbox" >
+            </div> 
+            <div class="canditateregistartion hide"> 
+                <div class="input-box">
+                    <span class="eduction-details">EDUCATION:</span> 
+                    <div class="education-category">
+                        <span class="uneducate"> 
+                            <input type="checkbox" name="uneducated">
+                            <span class="education">UNEDUCTAED</span>
+                        </span>
+                        <span class="prematric"> 
+                            <input type="checkbox" name="prematric">
+                            <span class="education">PREMATRIC</span>
+                        </span>
+                        <span class="matric"> 
+                            <input type="checkbox" name="matric">
+                            <span class="education">MATRIC</span>
+                        </span>
+                        <span class="INTERMEDIATE"> 
+                            <input type="checkbox" name="intermediate">
+                            <span class="education">INTERMEDIATE</span>
+                        </span>
+                        <span class="graduate"> 
+                            <input type="checkbox" name="graduate">
+                            <span class="education">GRADUATE</span>
+                        </span>
+                    </div>
+                </div> 
+                <div class="input-box">
+                    <span class="details">INCOME:</span>
+                    <input type="number" name="income" placeholder="enter your income" >
+                </div>  
+                <div class="represent">   
+                    <span class="represent-title">POSTION:</span>  
+                    <div class="represent-category">
+                        <input type="checkbox" name="vicepresident" id="vicepresident"> 
+                          <span class="vicepresident">VICEPRESIDENT</span> 
+                          <input type="checkbox" name="president" id="president"> 
+                          <span class="president">PRESIDENT</span> 
+                          <input type="checkbox" name="head-boy" id="head-boy"> 
+                          <span class="headboy">HEAD-BOY</span> 
+                          <input type="checkbox" name="head-girl" id="head-girl"> 
+                          <span class="headgirl">HEAD-GIRL</span> 
+                    </div> 
+                </div>
+                <div class="input-b">
+                    <span class="details"><address>DESCRIPTION:</address></span>
+                    <textarea style="resize:none;" name="description" id="description" cols="75" rows="4" placeholder="enter your full description eg: yourself,your strength enter in points " ></textarea>
+                </div> 
+            </div> 
+            <div class="button">
+            <input class="regis" type="submit" value="REGISTER"> 
+            <input class="res" type="reset" value="RESET">
+            </div>
+        </form>
+    </div>  
+    <!--------------------------------------------------------------------------------------------------------
+    ---------------------------this part is of popup box for application number-------------------------------> 
+    <div class="popup-wrapper hide"> 
+        <div class="popup">
+            <div class="popup-content">
+                <h2 class="application-title" style="color: black;">APPLICATION NUMBER</h2> 
+                <p class="application-number" style="color: black;">2000230348758393</p> 
+                <p class="submit-info" style="color: black;">1.you are successfully registered now go to login <br> 2.you will receive further updates through email or sms on mobile</p>
+                 <p class="link"><a href="login.html">Login</a></p>
+            </div> 
+            <div class="close">
+             <p class="close"><a href="index.html">CLOSE</a></p>  <!-----add front page html at href-->
+            </div>
+        </div>
+    </div>
+</body> 
+<script src="registration.js"></script>
+</html>  
